@@ -5,6 +5,8 @@ EE_SRC_DIR = src/
 EE_INC_DIR = include/
 EE_DVP = dvp-as
 
+EE_CFLAGS += -fno-strict-aliasing
+
 EE_OBJS = dma.o output.o screen.o vram.o vu1.o math.o matrix.o
 
 EE_LIB = lib/libpdk.a
